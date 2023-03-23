@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FootballCup.VS_Control">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@images.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tf1" layoutX="82.0" layoutY="51.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf2" layoutX="82.0" layoutY="92.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf3" layoutX="82.0" layoutY="134.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf4" layoutX="82.0" layoutY="178.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf5" layoutX="82.0" layoutY="221.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf6" layoutX="82.0" layoutY="262.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf7" layoutX="82.0" layoutY="301.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf8" layoutX="82.0" layoutY="341.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf9" layoutX="409.0" layoutY="49.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf10" layoutX="409.0" layoutY="90.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf11" layoutX="409.0" layoutY="132.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf12" layoutX="409.0" layoutY="176.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf13" layoutX="409.0" layoutY="219.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf14" layoutX="409.0" layoutY="260.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf15" layoutX="409.0" layoutY="299.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <TextField fx:id="tf16" layoutX="409.0" layoutY="339.0" prefHeight="32.0" prefWidth="124.0" promptText="team name" />
+      <Label layoutX="203.0" layoutY="14.0" prefHeight="33.0" prefWidth="195.0" text="Football Cup " textFill="#1a0fdb" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Algerian" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="go" layoutX="239.0" layoutY="359.0" mnemonicParsing="false" onAction="#go" prefHeight="25.0" prefWidth="145.0" text="Go">
+         <font>
+            <Font name="Bodoni MT Black" size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
